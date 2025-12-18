@@ -7,7 +7,6 @@
 	text-decoration: none;
 	list-style: none;
 	scroll-behavior: smooth;
-	/* outline: 1px dotted red; */
 	font-family: "Poppins", sans-serif;
 }
 
@@ -29,11 +28,6 @@ body {
 	font-family: "gotham pro";
 	src: url("../assets/fonts/GothamPro.woff2") format("woff2");
 }
-/* 
-@font-face {
-  font-family: 'cormorant';
-  src: url('../assets/fonts/CormorantGaramond-Regular.ttf') format('ttf');
-} */
 
 .hero {
 	height: 100vh;

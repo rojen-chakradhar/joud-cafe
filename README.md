@@ -1,4 +1,4 @@
-# 🌐 Website of a Restaurant named Kabir Khaja Ghar
+# 🌐 Website of Joud Cafe
 
 Hey there! This is a website of a cafe. A site where people can see about the cafe and order coffees.
 Get your coffee at your home in minutes by ordering from our cafe.
