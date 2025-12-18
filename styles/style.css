@@ -14,7 +14,7 @@ html,
 body {
 	height: 100%;
 	width: 100%;
-  overflow-x: hidden;
+	overflow-x: hidden;
 	background-color: var(--cream);
 }
 
@@ -101,7 +101,6 @@ nav li:last-child a {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: start;
 }
 
@@ -141,7 +140,7 @@ nav li:last-child a {
 
 .hero .content img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	object-fit: cover;
 }
 
@@ -156,7 +155,7 @@ nav li:last-child a {
 	border-radius: 50px;
 	color: var(--white);
 	background-color: var(--green);
-  box-shadow: 5px 5px 10px #00352a50, 5px 5px 10px #00352a50;
+	box-shadow: 5px 5px 10px #00352a50, 5px 5px 10px #00352a50;
 	font-size: 1.2vw;
 	cursor: pointer;
 }
@@ -166,13 +165,13 @@ nav li:last-child a {
 	width: 100%;
 	padding: 2vw 10vw 0;
 	background-color: var(--white);
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .catalog h1 {
 	text-align: center;
 	font-size: 5vw;
-  font-family: "gotham pro";
+	font-family: "gotham pro";
 	line-height: 1;
 	text-transform: uppercase;
 	color: var(--green);
@@ -209,12 +208,12 @@ nav li:last-child a {
 .catalog ul li:hover {
 	background-color: var(--green);
 	cursor: pointer;
-  box-shadow: 5px 5px 10px #00352a50, 5px 5px 10px #00352a50;
+	box-shadow: 5px 5px 10px #00352a50, 5px 5px 10px #00352a50;
 }
 
 .catalog ul i {
 	font-size: 2vw;
-  cursor: pointer;
+	cursor: pointer;
 	color: var(--green);
 }
 
@@ -252,24 +251,24 @@ nav li:last-child a {
 }
 
 .pick .content img:first-child {
-  top: -5vw;
-  right: -10vw;
-  width: 70%;
-  transform: rotate(20deg);
+	top: -5vw;
+	right: -10vw;
+	width: 70%;
+	transform: rotate(20deg);
 }
 
 .pick .content img:nth-child(2) {
-  top: 5vw;
-  left: -5vw;
-  width: 70%;
-  transform: rotate(-20deg);
+	top: 5vw;
+	left: -5vw;
+	width: 70%;
+	transform: rotate(-20deg);
 }
 
 .pick .content img:last-child {
-  bottom: -5vw;
-  right: -5vw;
-  width: 70%;
-  transform: rotate(80deg);
+	bottom: -5vw;
+	right: -5vw;
+	width: 70%;
+	transform: rotate(80deg);
 }
 
 .pick .content {
@@ -284,7 +283,7 @@ nav li:last-child a {
 .pick #container .content h1 {
 	text-align: center;
 	font-size: 4vw;
-  font-family: "gotham pro";
+	font-family: "gotham pro";
 	line-height: 1;
 	text-transform: uppercase;
 	color: var(--green);
@@ -298,8 +297,8 @@ nav li:last-child a {
 	font-family: "gotham pro";
 	font-size: 1vw;
 	font-weight: 100;
-  width: 85%;
-  margin-left: 2vw;
+	width: 85%;
+	margin-left: 2vw;
 	color: var(--green);
 	margin-top: 2vw;
 	line-height: 2;
@@ -309,30 +308,30 @@ nav li:last-child a {
 	height: 100vh;
 	width: 100vw;
 	padding: 2vw 10vw 0;
-  overflow: hidden;
+	overflow: hidden;
 	background-color: var(--white);
 }
 
 .order .content:has(h1) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: -10vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: -10vw;
 }
 
 .order picture {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .order h1 {
 	text-align: center;
 	font-size: 5vw;
-  font-family: "gotham pro";
+	font-family: "gotham pro";
 	line-height: 1;
 	text-transform: uppercase;
 	color: var(--green);
@@ -352,38 +351,38 @@ nav li:last-child a {
 }
 
 form {
-  height: 50vh;
-  width: 20vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  row-gap: 1vw;
+	height: 50vh;
+	width: 20vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 1vw;
 }
 
 form .input {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  font-size: 1.8vw;
-  border-bottom: .5px solid var(--green);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 1.8vw;
+	border-bottom: 0.5px solid var(--green);
 }
 
-form input{
-  width: 100%;
-  padding: .5vw 1vw;
-  font-weight: 600;
-  font-family: "gotham pro";
-  color: var(--green);
-  border: none;
+form input {
+	width: 100%;
+	padding: 0.5vw 1vw;
+	font-weight: 600;
+	font-family: "gotham pro";
+	color: var(--green);
+	border: none;
 }
 
-form input:focus{
-  outline: none;
+form input:focus {
+	outline: none;
 }
 
 form button {
-  margin-top: 5vw;
+	margin-top: 5vw;
 }
 
 .order picture img {
@@ -393,56 +392,92 @@ form button {
 }
 
 .order picture img:last-child {
-  top: 0;
-  right: 0;
+	top: 0;
+	right: 0;
 }
 
 .order picture img:first-child {
-  top: 5vw;
-  right: -10vw;
-  transform: rotate(100deg);
+	top: 5vw;
+	right: -10vw;
+	transform: rotate(100deg);
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4vw 10vw;
-  background-color: var(--green);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4vw 10vw;
+	background-color: var(--green);
 }
 
 footer .icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 3vw;
-  color: var(--white);
-  margin-bottom: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 3vw;
+	color: var(--white);
+	margin-bottom: 1vw;
 }
 
 footer .icons i {
-  font-size: 2.5vw;
-  cursor: pointer;
+	font-size: 2.5vw;
+	cursor: pointer;
 }
 
 footer ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 5vw;
-  text-transform: uppercase;
-  font-size: 1.5vw;
-  margin-bottom: 2vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 5vw;
+	text-transform: uppercase;
+	font-size: 1.5vw;
+	margin-bottom: 2vw;
 }
 
 footer ul li a {
-  font-family: "gotham pro";
-  color: var(--white);
+	font-family: "gotham pro";
+	color: var(--white);
 }
 
 footer hr {
-  height: .1vw;
-  width: 25%;
-  background-color: var(--white);
-  border: none;
+	height: 0.1vw;
+	width: 25%;
+	background-color: var(--white);
+	border: none;
+}
+
+@media (max-width: 768px) {
+	nav a h1 {
+		font-size: 3vw;
+	}
+
+	.hero .content {
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	nav a h1::after {
+		font-size: 1.2vw;
+	}
+
+	nav li a {
+		font-size: 1.5vw;
+	}
+
+	nav li:last-child a {
+		padding: 0.5vw 1.5vw;
+	}
+
+	.hero .content h1 {
+		font-size: 15vw;
+	}
+
+	.hero .content p {
+		font-size: 2vw;
+	}
+
+	.content button {
+		border-radius: 2rem;
+		font-size: 2vw;
+	}
 }
